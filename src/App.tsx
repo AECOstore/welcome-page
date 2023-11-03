@@ -4,7 +4,7 @@ import { Typography, Button, FormGroup, FormLabel, Checkbox, FormControl, FormCo
 const QueryEngine = require('@comunica/query-sparql-link-traversal').QueryEngine;
 
 
-const stores = [`https://pod.werbrouck.me/aecostore/store`]
+const stores = [`https://raw.githubusercontent.com/AECOstore/RESOURCES/main/stores/root.ttl`]
 
 const Store = (props) => {
   const [selectedStores, setSelectedStores] = React.useState(stores)
