@@ -26,7 +26,7 @@ const Store = (props) => {
       <Grid item xs={8}>
       <Typography variant="h1" style={{textAlign: "center", marginBottom: 30}}>MIFESTO</Typography>
       <Typography variant="h4" style={headerStyle}>What is Mifesto?</Typography>
-      <Typography>The <a href="#">Micro Frontend Store (Mifesto)</a> is a framework to interact with heterogeneous collaborative projects. Its main use case is the built environment, but since the infrastructure is domain-agnostic, any discipline can adopt its main patterns. Mifesto is the GUI part of the patterns proposed in the <a href='https://www.semantic-web-journal.net/content/consolid-federated-ecosystem-heterogeneous-multi-stakeholder-projects-0'>ConSolid</a> ecosystem. Mifesto allows to combine federated interaction modules into a unified application (Figure 2). Modules can be set up to interact with heterogeneous resources such as geometry, imagery and point clouds. </Typography>
+      <Typography>The <a href="#">Micro Frontend Store (Mifesto)</a> is a framework to interact with heterogeneous collaborative projects. Its main use case is the built environment, but since the infrastructure is domain-agnostic, any discipline can adopt its main patterns. Mifesto allows to combine federated interaction modules into a unified application (Figure 2). Modules can be set up to interact with heterogeneous resources such as geometry, imagery and point clouds and link them into a multi-model. </Typography>
       
       <Image filename="microfrontends_configuration.png" description="Building an interface consisting of interacting microfrontends." index="2" width="80%"/>
       

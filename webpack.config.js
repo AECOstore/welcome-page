@@ -21,6 +21,10 @@ module.exports = {
             name: '/public/[name].[ext]'
           }
       },
+      {
+        test: /\.ttl$/, // Regex to match RDF files
+        use: 'raw-loader', // Use raw-loader for these files
+      },
         {
           test: /\.(ts|js)x?$/,
           exclude: /node_modules/,
